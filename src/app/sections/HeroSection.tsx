@@ -5,11 +5,11 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ScrollCanvas } from "@/components/ScrollCanvas";
 import { useImagePreloader } from "@/hooks/useImagePreloader";
 
-const SEQUENCE_COUNT = 121;
+const SEQUENCE_COUNT = 120;
 
 export const HeroSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const { images, loaded } = useImagePreloader("1", SEQUENCE_COUNT);
+  const { images, loaded } = useImagePreloader("2", SEQUENCE_COUNT);
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
