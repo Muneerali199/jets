@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useEffect } from "react";
-import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
+import { useTransform, MotionValue } from "framer-motion";
 
 interface ScrollCanvasProps {
   images: HTMLImageElement[];

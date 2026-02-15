@@ -29,6 +29,7 @@ export const GlobeSection = () => {
           style={{ mixBlendMode: "screen" }}
         >
           <source src="/global-loop.gif" type="image/gif" />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/global-loop.gif"
             alt="Global Network"
