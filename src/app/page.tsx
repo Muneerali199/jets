@@ -5,6 +5,7 @@ import { HeroSection } from "./sections/HeroSection";
 import { PlaneMorphSection } from "./sections/PlaneMorphSection";
 import { GlobeSection } from "./sections/GlobeSection";
 import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 import { LoadingScreen } from "@/components/LoadingScreen";
 import { useImagePreloader } from "@/hooks/useImagePreloader";
 
@@ -29,6 +30,7 @@ export default function Home() {
         <PlaneMorphSection />
         <GlobeSection />
       </main>
+      <Footer />
     </>
   );
 }
